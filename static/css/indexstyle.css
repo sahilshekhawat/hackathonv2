@@ -10,8 +10,8 @@ top: 0px;
 left: 0px;
 height: 1000px;
 width: 1288px;
-background-image: url(page1img1.jpg);
-position: fixed;
+background-image: url(back.jpg);
+background-repeat: repeat-x;
 }
 #navbar
 {	height: 80px;
@@ -67,12 +67,11 @@ background-color:#E14900;
 
 #cf4a
 {
-	position: absolute;
-	top: 200px;
-	left: 150px;
-	width: 1000px;
-	height: 500px;
+	
+	top: 160px;
+	left: 50px;
 	background-color: rgba(256,256,256,0.5);
+	border-radius: 10px;
 }
 @-webkit-keyframes cf4FadeInOut {
    0% {opacity:1;}
@@ -108,15 +107,23 @@ background-color:#E14900;
 
 #cf4a {
    position:relative;
-   height:350px;
-   width:990px;
-   margin:30px auto;
+   height:460px;
+   width:900px;
+   /*margin:30px auto;*/
 }
 
-#cf4a img {
+.img
+{
+position: absolute;
+left: 95px;
+top: 50px;
+}
+
+
+/*#cf4a img {
    position:absolute;
    left:0;
-}
+}*/
 
 #cf4a img {
    -webkit-animation-name: cf4FadeInOut;
@@ -146,10 +153,19 @@ background-color:#E14900;
    -o-animation-delay: 0s;
    animation-delay: 0s;
     
-    z-index:4;
+    z-index:5;
 }
 
 #cf4a img:nth-of-type(2) {
+   -webkit-animation-delay: 4s;
+   -moz-animation-delay: 4s;
+   -o-animation-delay: 4s;
+   animation-delay: 4s;
+    
+    z-index:4;
+}
+
+#cf4a img:nth-of-type(3) {
    -webkit-animation-delay: 8s;
    -moz-animation-delay: 8s;
    -o-animation-delay: 8s;
@@ -158,7 +174,7 @@ background-color:#E14900;
     z-index:3;
 }
 
-#cf4a img:nth-of-type(3) {
+#cf4a img:nth-of-type(4) {
    -webkit-animation-delay: 16s;
    -moz-animation-delay: 16s;
    -o-animation-delay: 16s;
@@ -166,20 +182,14 @@ background-color:#E14900;
     
     z-index:2;
 }
-
-#cf4a img:nth-of-type(4) {
-   -webkit-animation-delay: 24s;
-   -moz-animation-delay: 24s;
-   -o-animation-delay: 24s;
-   animation-delay: 24s;
+#cf4a img:nth-of-type(5) {
+   -webkit-animation-delay: 32s;
+   -moz-animation-delay: 32s;
+   -o-animation-delay: 32s;
+   animation-delay: 32s;
     
     z-index:1;
+
 }
 
-.img
-{
-position: absolute;
-left: 100px;
-top: 50px;
-}
 
