@@ -5,17 +5,20 @@ src: url(Space2.ttf);
 }
 #page1
 {
+z-index: -999;
 position: absolute;
+min-height:100%;
 top: 0px;
 left: 0px;
-height: 1000px;
-width: 1288px;
-background-image: url(back.jpg);
-background-repeat: repeat-x;
+height: 100%;
+width: 100%;
+background-image: url(back2.jpg);
+background-attachment:  fixed;
+
 }
 #navbar
 {	height: 80px;
-	width: 1301px;
+	width: 100%;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -194,13 +197,13 @@ top: 50px;
 #page2
 {
 	position: absolute;
-	top: 1000px;
-	left: 1000px;
+	top: 100%;
+	left: 100%;
 }
 #paperimg
 {	position: absolute;
-	top: 1000px;
-	left: 1000px;
+	top: 100%;
+	left: 100%;
 	background-image: url('paper.jpg');
 }
 

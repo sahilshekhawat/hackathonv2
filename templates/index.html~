@@ -4,10 +4,22 @@
 <head>
 <title>Heroes Of Change</title>
 <link rel="stylesheet" href="/home/static/css/indexstyle.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+function set_body_height() {
+  var wh = $(window).height();
+  $('body').height(wh); // body height = window height
+}
+$(document).ready(function() {
+  set_body_height();
+  $(window).bind('resize', function() { set_body_height(); });
+});
+</script>
 </head>
 <body>
 
 <div id="page1">
+	<!--<img id="bacground" src="/home/static/css/back.jpg" height="1000" width="2000">-->
 	<div id="navbar">
 		<h2 id="hoc">Heroes Of Change</h2>
 		<a id="login" href="#"><br>&nbsp&nbsp&nbsp&nbspLogin
@@ -24,8 +36,9 @@
 
 	</div>
 <div id="page2">
-<div id="paperimg">
-</div>
+	<div id="paperimg">
+		
+	</div>
 </div>
 </body>
 </html>
