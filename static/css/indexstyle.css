@@ -8,8 +8,8 @@ src: url(Space2.ttf);
 position: absolute;
 top: 0px;
 left: 0px;
-height: 1000px;
-width: 1288px;
+height: 100%;
+width: 100%;
 background-image: url(back.jpg);
 background-repeat: repeat-x;
 }
@@ -191,5 +191,16 @@ top: 50px;
     z-index:1;
 
 }
-
+#page2
+{
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+}
+#paperimg
+{	position: absolute;
+	top: 1000px;
+	left: 1000px;
+	background-image: url('paper.jpg');
+}
 

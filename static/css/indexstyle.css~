@@ -11,7 +11,7 @@ left: 0px;
 height: 1000px;
 width: 1288px;
 background-image: url(back.jpg);
-background-repeat: no-repeat;
+background-repeat: repeat-x;
 }
 #navbar
 {	height: 80px;
@@ -191,5 +191,16 @@ top: 50px;
     z-index:1;
 
 }
-
+#page2
+{
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+}
+#paperimg
+{	position: absolute;
+	top: 1000px;
+	left: 1000px;
+	background-image: url('paper.jpg');
+}
 

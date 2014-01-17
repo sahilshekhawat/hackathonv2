@@ -6,6 +6,15 @@
 <link rel="stylesheet" href="/home/static/css/indexstyle.css">
 </head>
 <body>
+
+<div id="page1">
+	<div id="navbar">
+		<h2 id="hoc">Heroes Of Change</h2>
+		<a id="login" href="#"><br>&nbsp&nbsp&nbsp&nbspLogin
+		</a>
+	</div>
+	
+</div>
 <div id="cf4a" class="shadow">
 		<img class="img" src="/home/static/css/back2.jpg" width="700" height="350">
 		<img class="img" src="/home/static/css/back3.jpg" width="700" height="350">
@@ -14,13 +23,9 @@
 		<img class="img" src="/home/static/css/back7.jpg" width="700" height="350">
 
 	</div>
-<div id="page1">
-	<div id="navbar">
-		<h2 id="hoc">Heroes Of Change</h2>
-		<a id="login" href="#"><br>&nbsp&nbsp&nbsp&nbspLogin
-		</a>
-	</div>
-	
+<div id="page2">
+<div id="paperimg">
+</div>
 </div>
 </body>
 </html>
