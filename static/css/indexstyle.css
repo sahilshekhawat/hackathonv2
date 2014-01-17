@@ -1,0 +1,25 @@
+#page1
+{
+position: absolute;
+top: 0px;
+left: 0px;
+height: 1000px;
+width: 2000px;
+background-image: url(page1img1.jpg);
+}
+#navbar
+{	height: 50px;
+	width: 1301px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgb(0,0,0);
+	
+}
+
+/*#navbar
+{
+	background-color: rgba(50,50,50,0.5);
+	width: 200px;
+	height: 200px;
+}*/
