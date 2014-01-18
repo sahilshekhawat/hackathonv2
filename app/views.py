@@ -36,5 +36,28 @@ def user_home(request):
         href = users.create_login_url('/home')
     return render(request, 'profile.html', { 'href': href, 'email': email, 'username': username, 'filedir': filedir, 'contributed_list': contributed_list, 'started_list':started_list, 'paid': paid})
 
+def project(request):
+    user_function = users.get_current_user() 
+    b=models.UserData()
+    if b.query(b._properties['username'] == username):
+        date = b.query(b._properties['username'] == username).date
+    for k in a.query(a._properties['username'] == username):
+        payment=int(payment)+int(k.paid)
+    if b.query(b._properties['username'] == username):
+        title = b.query(b._properties['username'] == username).title
+    return render(request, 'project.html', {'date': date, 'payment': payment, 'title': title})
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
