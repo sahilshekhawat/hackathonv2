@@ -36,7 +36,6 @@ src: url(Space2.ttf);
 	width: 100%;
 	height: 300px;
 	background-image: url(wall9.jpg);
-	position: fixed;
 }
 #division
 {
