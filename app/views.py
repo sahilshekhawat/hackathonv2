@@ -34,7 +34,7 @@ def user_home(request):
         username = user_function.nickname()
         email = user_function.email()
         href = users.create_login_url('/home')
-    return render(request, 'home.html', { 'href': href, 'email': email, 'username': username, 'filedir': filedir, 'contributed_list': contributed_list, 'started_list':started_list, 'paid': paid})
+    return render(request, 'profile.html', { 'href': href, 'email': email, 'username': username, 'filedir': filedir, 'contributed_list': contributed_list, 'started_list':started_list, 'paid': paid})
 
 
 
