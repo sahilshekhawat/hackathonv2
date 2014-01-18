@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>Your Profile</title>
+<link rel="stylesheet" href="/home/static/css/profilestyle.css">
+</head>
+<body>
+<div id="info">
+<h1> username: {{ username }}</h1>
+<h2> email: {{ email }}</h2>
+<h2> paid: {{ paid }}</h2>
+
+</div>
+<div id="contributed">
+    {% for i in contributed_list %}
+        <a href="/home/projects/{{ i }}">{{ i }}</a></br>
+    {% endfor %}
+</div>
+<div id="started_list">
+    {% for j in started_list %}
+        <a href="/home/projects/{{ j }}">{{ j }}</a></br>
+    {% endfor %}
+</div>
+</body>
+</html>
