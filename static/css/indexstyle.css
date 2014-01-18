@@ -1,4 +1,8 @@
-
+html {
+	margin=0;
+	width=100%;
+	height=100%;
+}
 @font-face
 {
 font-family: space2;
@@ -15,14 +19,26 @@ src: url(Space2.ttf);
 
 #page1
 {
-z-index: -999;
-position: absolute;
-min-height:100%;
-top: 0px;
-left: 0px;
-height: 100%;
+
+
+position:fixed;
+top: -50%;
+left: -50%;
 width: 100%;
-background-image: url(back.jpg);
+height: 200%;
+
+}
+
+#page img {
+	position: relative;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	min-width: 50%;
+	min-height: 50%;
+
 
 }
 #navbar
@@ -48,9 +64,9 @@ background-image: url(back.jpg);
 }
 #login
 {
-	position: absolute;
+	position: relative;
 	top: 0px;
-	left: 1100px;
+	float: right;
 }
 a:link,a:visited
 {
@@ -84,6 +100,7 @@ background-color:#E14900;
 	left: 50px;
 	background-color: rgba(256,256,256,0.5);
 	border-radius: 10px;
+	float: left;
 }
 @-webkit-keyframes cf4FadeInOut {
    0% {opacity:1;}
@@ -203,7 +220,7 @@ top: 50px;
     z-index:1;
 
 }
-#page2
+/*#page2
 {	height: 900px;
 	width: 100%;
 	position: absolute;
@@ -211,11 +228,11 @@ top: 50px;
 	left: 0px;
 	background-image: url('paper.jpg');
 	background-attachment: fixed;
-}
-#paperimg
-{	position: absolute;
+}*/
+/*#paperimg
+{	position: relative;
 	top: 800px;
 	left: 100%;
 	background-image: url(back.jpg);
-}
+}*/
 
