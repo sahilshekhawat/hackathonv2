@@ -14,7 +14,7 @@ def user_home(request):
     if user_function:
         username = user_function.nickname()  
         email = user_function.email()
-        href = users.create_logout_url('/')
+        href = users.create_logout_url('/home')
         if (not models.UserData.query(
                 models.UserData.username == user_function.nickname(),
                 models.UserData.email == user_function.email()).get()):
@@ -23,7 +23,7 @@ def user_home(request):
     else:
         username = user_function.nickname()
         email = user_function.email()
-        href = users.create_login_url('/')
+        href = users.create_login_url('/home')
     return render(request, 'home.html', { 'href': href, 'email': email, 'username': username, 'filedir': filedir})
 
 

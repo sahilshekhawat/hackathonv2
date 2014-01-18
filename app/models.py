@@ -11,7 +11,7 @@ class Time(ndb.Model):
     time = ndb.DateTimeProperty()
     date = ndb.DateTimeProperty(auto_now_add=True)
 
-class Post(ndb.Model):
+
 
 
 
