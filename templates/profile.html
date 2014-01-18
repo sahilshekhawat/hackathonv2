@@ -1,10 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Your Profile</title>
-<link rel="stylesheet" href="/home/static/css/profilestyle.css">
+ <title>Profile</title>
+<link rel="stylesheet" href="/home/static/css/indexstyle.css">
 </head>
 <body>
+<div id="homenavbar">
+    <h2 id="hoc">Hi! {{ username }}</h2>
+    <a id="logout" href="{{ href }}"></br>Logout</a>
+</div>
 <div id="info">
 <h1> username: {{ username }}</h1>
 <h2> email: {{ email }}</h2>
