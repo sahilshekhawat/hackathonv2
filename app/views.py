@@ -4,7 +4,7 @@ from django.shortcuts import render
 from google.appengine.api import users
 import os
 import sys
-import models
+from models import UserData, Time, Profile, Post
 
 
 def user_home(request):
@@ -15,10 +15,11 @@ def user_home(request):
         username = user_function.nickname()  
         email = user_function.email()
         href = users.create_logout_url('/home')
-        if (not models.UserData.query(
-                models.UserData.username == user_function.nickname(),
-                models.UserData.email == user_function.email()).get()):
-            query = models.UserData(username=user_function.nickname(), email=user_function.email())
+	
+        if (not UserData.query(
+                UserData.username == user_function.nickname(),
+                UserData.email == user_function.email()).get()):
+            query = UserData(username=user_function.nickname(), email=user_function.email())
             query.put()
     else:
         username = user_function.nickname()
