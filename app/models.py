@@ -15,6 +15,7 @@ class Profile(db.Model):
     contributed_to = db.StringProperty()
     paid = db.IntegerProperty()
     started = db.StringProperty()
+    picture = db.BlobProperty()
 
 
 class Post(db.Model):
