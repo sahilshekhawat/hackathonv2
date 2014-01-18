@@ -1,31 +1,13 @@
-import datetime
-from google.appengine.ext import ndb, db
-from google.appengine.api import users
+from google.appengine.ext import ndb
 
 class UserData(ndb.Model):
     username = ndb.StringProperty()
     email = ndb.StringProperty()
-    
-
-class Time(ndb.Model):
-    time = ndb.DateTimeProperty()
     date = ndb.DateTimeProperty(auto_now_add=True)
-
-class Profile(db.Model):
-    contributed_to = db.StringProperty()
-    paid = db.IntegerProperty()
-    started = db.StringProperty()
-    picture = db.BlobProperty()
-
-
-class Post(db.Model):
-    description = db.TextProperty()
-    title = db.StringProperty()
-    payment = db.IntergerProperty()
-    
-
-
-
-
-
-    
+    contributed_to = ndb.StringProperty()
+    paid = ndb.IntegerProperty()
+    started = ndb.StringProperty()
+    picture = ndb.BlobProperty()
+    description = ndb.TextProperty()
+    title = ndb.StringProperty()
+    payment = ndb.IntegerProperty()
