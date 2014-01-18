@@ -19,11 +19,11 @@
 		</a>
 	</div>
 <div id="cf4a" class="shadow">
-		<img class="img" src="/home/static/css/back2.jpg" width="700" height="350">
-		<img class="img" src="/home/static/css/back3.jpg" width="700" height="350">
-		<img class="img" src="/home/static/css/back4.jpg" width="700" height="350">
-		<img class="img" src="/home/static/css/back5.png" width="700" height="350">
-		<img class="img" src="/home/static/css/back7.jpg" width="700" height="350">
+		<img class="img" src="/home/static/css/im1.jpg" width="700" height="350">
+		<img class="img" src="/home/static/css/im2jpg" width="700" height="350">
+		<img class="img" src="/home/static/css/im3.jpg" width="700" height="350">
+		<img class="img" src="/home/static/css/im4.png" width="700" height="350">
+		<img class="img" src="/home/static/css/page1img1.jpg" width="700" height="350">
 
 	</div>
 <div id="page2">
@@ -53,7 +53,7 @@ mad.scientist@gmail.com
 </h5>
 </div>
 <div id="masthead">
-<h5 id="masttext"> 2013 KARAN GROVER
+<h5 id="masttext"> 2013 KARAN GROVER & SAHIL SHEKHAWAT
 </h5>
 </div>
 <div id="contacticon">

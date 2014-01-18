@@ -11,23 +11,29 @@ src: url(Space2.ttf);
 	top:0;
 	bottom:0;
 	left:0;
+	
 	background-color: #3399ff
+	
 }
 #homenavbar a
-{
+{	font-family: space2;
 	float:right;
+
 }
 
 #homenavbar h2
 {
 	position: fixed;
 	left:10px;
+	font-style: helvetica, sans-serif;
+	color: white;
 }
 #logout
 {
 	position: relative;
 	top: 0px;
 	float: right;
+	font-family: space2;
 }
 #info
 {	position: absolute;
@@ -36,6 +42,8 @@ src: url(Space2.ttf);
 	width: 100%;
 	height: 300px;
 	background-image: url(wall9.jpg);
+	position: fixed;
+	color: #98A4B3;
 }
 #division
 {
@@ -44,5 +52,27 @@ src: url(Space2.ttf);
 	left: 0px;
 	height: 500px;
 	width: 100%;
-	background-image:url(blue.jpg);
+	background-image:url(back2.jpg);
 }
+#contributed
+{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+	height: 400px;
+	width: 600px
+	overflow: scroll;
+	font-size: 15pt;
+	color: white;
+	font-family: space2;
+}
+#started_list
+{
+	position: absolute;
+	top: 50px;
+	left: 1000px;
+	height: 400px;
+	width: 600px
+	overflow: scroll;
+}
+	

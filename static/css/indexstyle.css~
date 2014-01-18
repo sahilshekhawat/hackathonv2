@@ -172,8 +172,8 @@ background-color:#33cc00;
 .img
 {
 position: absolute;
-left: 10px;
-top: 10px;
+left: 95px;
+top: 50px;
 }
 
 .img1
