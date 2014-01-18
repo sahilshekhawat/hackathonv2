@@ -285,7 +285,7 @@ animation-duration: 10s;
 animation-direction: alternate;
 }
 #page2
-{	height: 900px;
+{	height: 800px;
 	width: 100%;
 	position: absolute;
 	top: 665px;
@@ -312,18 +312,18 @@ font-family: space2;
 #fourth
 {
 height:760px;
-width: 1286px;
+width: 1350px;
 background-image: url('wall9.jpg');
 position: absolute;
-top: 180px;
+top: 10px;
 left: 0px;
 }
 #container
 {
-height: 460px;
-width: 1300px;
+height: 590px;
+width: 1350px;
 position: absolute;
-top: 300px;
+top: 200px;
 left: 0px;
 background-color: rgba(2,29,78,0.8);
 /*background-image: url('invader.jpg');*/
@@ -363,10 +363,10 @@ font-family: space1;
 {
 background-image: url('wall3.jpg');
 position: absolute;
-top: 400px;
+top: 490px;
 left: 0px;
 height: 100px;
-width: 1286px;
+width: 100%;
 color: #919499;
 font-size: 12pt;
 }
