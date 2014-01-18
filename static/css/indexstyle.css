@@ -1,8 +1,18 @@
+
 @font-face
 {
 font-family: space2;
 src: url(Space2.ttf);
 }
+/*#page1
+{ 
+  background-image: url(back.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
 #page1
 {
 z-index: -999;
@@ -13,7 +23,6 @@ left: 0px;
 height: 100%;
 width: 100%;
 background-image: url(back.jpg);
-background-attachment:  fixed;
 
 }
 #navbar
@@ -24,6 +33,7 @@ background-attachment:  fixed;
 	left: 0px;
 	background-color: rgba(248,248,248,0.3);
 	position: fixed;
+	z-index: 11;
 	
 }
 #hoc
@@ -40,7 +50,7 @@ background-attachment:  fixed;
 {
 	position: absolute;
 	top: 0px;
-	left: 1150px;
+	left: 1100px;
 }
 a:link,a:visited
 {
@@ -70,7 +80,6 @@ background-color:#E14900;
 
 #cf4a
 {
-	
 	top: 160px;
 	left: 50px;
 	background-color: rgba(256,256,256,0.5);
@@ -195,15 +204,18 @@ top: 50px;
 
 }
 #page2
-{
+{	height: 900px;
+	width: 100%;
 	position: absolute;
-	top: 100%;
-	left: 100%;
+	top: 665px;
+	left: 0px;
+	background-image: url('paper.jpg');
+	background-attachment: fixed;
 }
 #paperimg
 {	position: absolute;
-	top: 100%;
+	top: 800px;
 	left: 100%;
-	background-image: url('paper.jpg');
+	background-image: url(back.jpg);
 }
 
